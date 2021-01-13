@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teamwork: Work & Project Management Software</title>
-    <link rel="stylesheet" href="build/tailwind.css" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
-      </style>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teamwork: Work & Project Management Software</title>
+  <link rel="stylesheet" href="build/tailwind.css" />
   <style>
-    * {
-      border: opx;
-      border-color: red;
-
-    }
+    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
   </style>
-  <body class="font-quicksand">
+</head>
+<style>
+  * {
+    border: px;
+    border-color: red;
+  }
+</style>
 
-    <!-- Nav Component Start -->
-    <nav class="flex justify-between border-solid">
-      <div class="logo w-32 m-6">
-        <img  src="./img/logo.png" alt="Logo">
-      </div>
-      <div class="menu m-6">
-        <img class="w-5" src="./img/menu.svg" alt="menu-collapsed">
-      </div>
-    </nav>
-
-    <!-- Nav Component End -->
-
-    <!-- Into Component Start -->
-    <div class="mx-6 my-4">
-      <div class="text-2xl  font-semibold tracking-wide">
-        <p class="leading-relaxed">The project management software loved by</p>
-        <p class="inline users text-indigo-600"></p>
-
-      </div>
-      <div class="mt-6 mb-4 text-gray-600 font-normal text-lg">
-        <p>Trusted by over 20,000 companies</p>
-      </div>
-
-      <div>
-
-      </div>
-      <div>
-        <!-- <button>Try teamwork for free</button> -->
-      </div>
+<body class="font-quicksand">
+  <!-- Nav Component Start -->
+  <nav class="flex justify-between border-solid">
+    <div class="logo w-32 m-8 mt-6">
+      <img src="./img/logo.png" alt="Logo" />
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-        <script>
-            var typed = new Typed('.users', {
-            strings: ['Project Managers', 'Agencies', 'Professional Services', 'Business Owners', 'Marketing Teams', 'IT Teams', 'Universities'],
-            loop: true,
-            typeSpeed: 200,
-            startDelay: 100,
-            backDelay:3000,
-            backSpeed: 100,
+    <div class="menu mx-6 mb-6 mt-6">
+      <img class="w-5" src="./img/menu.svg" alt="menu-collapsed" />
+    </div>
+  </nav>
 
-            });
+  <!-- Nav Component End -->
 
-        </script>
-  </body>
+  <!-- Intro Component Start -->
+  <div class="mx-8 my-4 ">
+    <div class="text-2xl font-semibold tracking-wide">
+      <p class="leading-relaxed">The project management software loved by</p>
+      <p class="inline users text-indigo-600"></p>
+    </div>
+    <div class="mt-6 mb-4 text-gray-700 font-normal text-lg">
+      <p>Trusted by over 20,000 companies</p>
+    </div>
+
+    <div class="flex my-1">
+      <img class="w-5 object-contain pb-6 pt-0" src="/public/img/checked.png" alt="checked" />
+      <span class="ml-4 text-gray-600 font-semibold tracking-wide">Simple to use, powerful when you need it</span>
+    </div>
+
+    <div class="flex my-1">
+      <img class="w-5 object-contain pb-6" src="/public/img/checked.png" alt="checked" />
+      <span class="ml-4 text-gray-600 font-semibold tracking-wide">Manage multiple complex projects with ease </span>
+    </div>
+    <div class="flex my-1">
+      <img class="w-5 object-contain pb-12 pt-1" src="/public/img/checked.png" alt="checked" />
+      <span class="ml-4 text-gray-600 font-semibold tracking-wide">Scales into a platform with everything you need to
+        run your company</span>
+    </div>
+    <div class="my-12"></div>
+    <div>
+      <button class="bg-indigo-700 px-4 py-4 rounded text-white font-semibold tracking-wide">
+        Try teamwork for free
+      </button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script>
+    var typed = new Typed(".users", {
+      strings: [
+        "Project Managers",
+        "Agencies",
+        "Professional Services",
+        "Business Owners",
+        "Marketing Teams",
+        "IT Teams",
+        "Universities"
+      ],
+      loop: true,
+      typeSpeed: 200,
+      startDelay: 100,
+      backDelay: 3000,
+      backSpeed: 100
+    });
+  </script>
+</body>
+
 </html>
