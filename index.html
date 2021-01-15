@@ -13,7 +13,7 @@
 <style>
   * {
     border: px;
-    /* border-color: red; */
+    border-color: red;
   }
 </style>
 
@@ -22,15 +22,15 @@
   <div>
 
 
-  <nav class="flex justify-between fixed w-full  bg-white scroll:shadow-lg">
-    <div class="logo w-32 m-8 mt-6">
-      <img src="public/img/logo.png" alt="Logo" />
-    </div>
-    <div class="menu mx-6 mb-6 mt-6">
-      <img class="w-5" src="public/img/menu.svg" alt="menu-collapsed" />
-    </div>
-  </nav>
-</div>
+    <nav class="flex justify-between fixed w-full  bg-white scroll:shadow-lg">
+      <div class="logo w-32 m-8 mt-6">
+        <img src="public/img/logo.png" alt="Logo" />
+      </div>
+      <div class="menu mx-6 mb-6 mt-6">
+        <img class="w-5" src="public/img/menu.svg" alt="menu-collapsed" />
+      </div>
+    </nav>
+  </div>
   <!-- Nav Component End -->
 
   <!-- Intro Component Start -->
@@ -46,7 +46,7 @@
 
       <div class="my-1  mr-3">
         <div class="flex">
-          <div>
+          <div class="flex-none">
             <img class="w-5 object-contain pb-6" src="public/img/checked.png" alt="checked" />
           </div>
           <span class="ml-4 text-gray-600 font-semibold tracking-wider text-sm">Simple to use, powerful when you need
@@ -54,20 +54,22 @@
         </div>
 
         <div class="flex my-1">
-          <div>
+          <div class="flex-none">
             <img class="w-5 object-contain pb-6" src="public/img/checked.png" alt="checked" />
           </div>
           <span class="ml-4 text-gray-600 font-semibold tracking-wider text-sm">Manage multiple complex projects with
             ease
           </span>
         </div>
+
         <div class="flex my-1">
-          <div>
+          <div class="flex-none">
             <img class="w-5 object-contain pb-12" src="public/img/checked.png" alt="checked" />
           </div>
           <span class="ml-4 text-gray-600 font-semibold tracking-wider text-sm">Scales into a platform with everything
             you need to run your company</span>
         </div>
+
       </div>
       <div class="my-16"></div>
       <div>
@@ -121,94 +123,122 @@
 
     <div class="mx-8 mt-40 mb-24 text-indigo-900 leading-7">
       <div>
-        <h1 class=" text-2xl font-black tracking-wider text-indigo-900">Simple to use, <span class="text-pink-600 ">powerful</span> when you need it</h1>
+        <h1 class=" text-2xl font-black tracking-wider text-indigo-900">Simple to use, <span class="text-pink-600 ">powerful</span>
+          when you need it</h1>
       </div>
 
-    <div class="mt-8 leading-7">
-      <h3 class="inline font-extrabold">All the project management essentials you need</h3><span class="ml-3"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-      <p class="text-sm font-semibold">Create tasks and projects, upload files, and add comments. With Teamwork everything is in one central location.</p>
+      <div class="mt-8 leading-7">
+        <h3 class="inline font-extrabold">All the project management essentials you need</h3><span class="ml-3"><img
+            src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
+        <p class="text-sm font-semibold">Create tasks and projects, upload files, and add comments. With Teamwork
+          everything is in one central location.</p>
+      </div>
+
+      <div class="mt-8 leading-7">
+        <h3 class="inline font-extrabold">Flexible, so you can customize for your workflow </h3><span class="ml-3"><img
+            src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
+        <p class="text-sm font-semibold">View your project as a task list, Gantt chart, or board view. You can
+          customize Teamwork to how you already work.</p>
+      </div>
+
+      <div class="mt-8">
+        <h3 class="inline font-extrabold">Advanced features for complex projects</h3><span class="ml-1"><img src="public/img/up-arrow.svg"
+            alt="" class="w-3 inline "></span>
+        <p class="text-sm font-semibold">Teamwork has all of the advanced features that basic tools lack so you won’t
+          outgrow it as you scale. Gantt charts, board view,<br> <span class="text-indigo-600 underline font-bold">Portfolio
+            management</span>, time tracking, reporting dashboards,<span class="text-indigo-600 underline font-bold">
+            workload management</span> and many, many more.</p>
+      </div>
+
     </div>
-
-    <div class="mt-8 leading-7">
-      <h3 class="inline font-extrabold">Flexible, so you can customize for your workflow </h3><span class="ml-3"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-      <p class="text-sm font-semibold">View your project as a task list, Gantt chart, or board view. You can customize Teamwork to how you already work.</p>
-    </div>
-
-    <div class="mt-8">
-      <h3 class="inline font-extrabold">Advanced features for complex projects</h3><span class="ml-1"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-      <p class="text-sm font-semibold">Teamwork has all of the advanced features that basic tools lack so you won’t outgrow it as you scale. Gantt charts, board view,<br> <span class="text-indigo-600 underline font-bold">Portfolio management</span>, time tracking, reporting dashboards,<span class="text-indigo-600 underline font-bold"> workload management</span> and many, many more.</p>
-    </div>
-
-  </div>
   </div>
 
-<div>
-  <div class="mx-16 mt-16 mb-64">
-    <img src="https://images.ctfassets.net/gg4ddi543f5b/5cPjbzT8BmcxncKxlj9y1a/e3f056632228fef1d5e1194a101ea537/dashboard-overivew_2x.webp" alt="Task List Image">
-  </div>
-
-
-<!-- Manage multiple com -->
-  <div class="mx-8 my-40 text-indigo-900">
-    <div>
-      <h1 class="text-2xl font-extrabold tracking-wider text-indigo-900">Manage multiple complex projects with ease</h1>
-    </div>
-
-  <div class="mt-8 leading-7">
-    <h3 class="inline font-bold">Instantly know what’s on and off track</h3><span class="ml-3"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-    <p class="text-sm">Use dashboards, Board View and project health status updates to see how your project is progressing and what’s left to do.</p>
-  </div>
-
-  <div class="mt-8 leading-7">
-    <h3 class="inline font-bold">Keep everyone accountable  </h3><span class="ml-3"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-    <p class="text-sm">Assign tasks so everyone knows who’s responsible for what. Use time tracking to measure how long tasks take, so you can plan new projects more efficiently and avoid team burnout. Learn more about time tracking</p>
-  </div>
-  <div class="mt-8 leading-7">
-    <h3 class="inline font-bold">Use your resources more wisely   </h3><span class="ml-3"><img src="public/img/up-arrow.svg" alt="" class="w-3 inline "></span>
-    <p class="text-sm">Get deep insights into your team’s resources so you can see who’s at capacity and who has the bandwidth to take on more work.
-      </p><span class="text-indigo-600 underline font-bold"><br>Learn more about Workload</span>
-  </div>
-
-
-  <!-- Integrate with tools compinent -->
-  <div class="my-16"></div>
   <div>
-    <h1 class="font-extrabold text-2xl text-center">Integrate with the tools you already use</h1>
+    <div class="mx-16 mt-16 mb-64">
+      <img src="https://images.ctfassets.net/gg4ddi543f5b/5cPjbzT8BmcxncKxlj9y1a/e3f056632228fef1d5e1194a101ea537/dashboard-overivew_2x.webp"
+        alt="Task List Image">
+    </div>
+
+
+    <!-- Manage multiple com -->
+    <div class="mx-8 my-40 text-indigo-900">
+      <div>
+        <h1 class="text-2xl font-extrabold tracking-wider text-indigo-900">Manage multiple complex projects with ease</h1>
+      </div>
+
+      <div class="mt-8 leading-7">
+        <h3 class="inline font-bold">Instantly know what’s on and off track</h3><span class="ml-3"><img src="public/img/up-arrow.svg"
+            alt="" class="w-3 inline "></span>
+        <p class="text-sm">Use dashboards, Board View and project health status updates to see how your project is
+          progressing and what’s left to do.</p>
+      </div>
+
+      <div class="mt-8 leading-7">
+        <h3 class="inline font-bold">Keep everyone accountable </h3><span class="ml-3"><img src="public/img/up-arrow.svg"
+            alt="" class="w-3 inline "></span>
+        <p class="text-sm">Assign tasks so everyone knows who’s responsible for what. Use time tracking to measure how
+          long tasks take, so you can plan new projects more efficiently and avoid team burnout. Learn more about time
+          tracking</p>
+      </div>
+      <div class="mt-8 leading-7">
+        <h3 class="inline font-bold">Use your resources more wisely </h3><span class="ml-3"><img src="public/img/up-arrow.svg"
+            alt="" class="w-3 inline "></span>
+        <p class="text-sm">Get deep insights into your team’s resources so you can see who’s at capacity and who has
+          the bandwidth to take on more work.
+        </p><span class="text-indigo-600 underline font-bold"><br>Learn more about Workload</span>
+      </div>
+
+
+      <!-- Integrate with tools compinent -->
+      <div class="my-16"></div>
+    </div>
+    <div class="mx-6">
+      <div>
+        <h1 class="font-extrabold text-2xl text-center mx-4 leading-tight">Integrate with the tools you already use</h1>
+        <div class="my-8  flex flex-wrap justify-around w-full">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21143946/slack-logo-text.svg"
+            alt="Slack">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144532/xero-logo-text.svg"
+            alt="Xero">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144557/hubspot-logo-text.svg"
+            alt="HubSpot">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144621/google-drive-logo-text.svg"
+            alt="Slack">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144636/dropbox-logo-text.svg"
+            alt="Dropbox">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144651/zapier-logo-text.svg"
+            alt="Zapier">
+          <img class="pl-3" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144710/quickbooks-logo-text.svg"
+            alt="QuickBooks">
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="my-8 flex flex-wrap">
-    <img class="p-1" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21143946/slack-logo-text.svg" alt="Slack">
-    <img class="p-1" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21144532/xero-logo-text.svg" alt="Xero">
-    <img class="p-1" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21143946/slack-logo-text.svg" alt="Slack">
-    <img class="p-1" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21143946/slack-logo-text.svg" alt="Slack">
-    <img class="p-1" src="https://website-assets.teamwork.com/offload/app/uploads/2020/08/21143946/slack-logo-text.svg" alt="Slack">
-  </div>
-
-</div>
-
-</div>
 
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-  <script>
-    var typed = new Typed(".users", {
-      strings: [
-        "Project Managers",
-        "Agencies",
-        "Professional Services",
-        "Business Owners",
-        "Marketing Teams",
-        "IT Teams",
-        "Universities"
-      ],
-      loop: true,
-      typeSpeed: 200,
-      startDelay: 100,
-      backDelay: 3000,
-      backSpeed: 100
-    });
-  </script>
+  <scriptv src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js">
+    </script>
+    <script>
+      var typed = new Typed(".users", {
+        strings: [
+          "Project Managers",
+          "Agencies",
+          "Professional Services",
+          "Business Owners",
+          "Marketing Teams",
+          "IT Teams",
+          "Universities"
+        ],
+        loop: true,
+        typeSpeed: 200,
+        startDelay: 100,
+        backDelay: 3000,
+        backSpeed: 100
+      });
+    </script>
 </body>
 
 </html>
