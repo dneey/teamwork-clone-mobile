@@ -1,7 +1,6 @@
-# Teamwork UI clone
+# Teamwork UI clone - Mobile
 
-This is an attempt to rebuild the amazing UI of [teamwork.com](https://teamwork.com).
-NB: This is a work in progress and only currently renders properly on mobile:D
+This is an attempt to rebuild the amazing UI of [teamwork.com](https://teamwork.com) for mobile.
 
 ## Link
 
