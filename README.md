@@ -4,4 +4,4 @@ This is an attempt to rebuild the amazing UI of [teamwork.com](https://teamwork.
 
 ## Link
 
-Check it out [teamwork-clone](https://dneey.github.io/teamwork-clone).
+Check it out [teamwork-clone](https://dneey.github.io/teamwork-clone-mobile).
